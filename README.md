@@ -39,9 +39,7 @@ Each layer has a single responsibility and only talks to the layer directly belo
 
 <img width="573" alt="Project structure" src="https://github.com/user-attachments/assets/90d2451b-d7f0-4abd-9a62-7a8e21251c27" />
 
-## 🚀 Getting Started
+## 📌 Author
 
-**Prerequisites:** Java 17+ and Maven (or the included `mvnw` wrapper).
+**Aarti Notani GitHub :** https://github.com/aartinotani2002
 
-```bash
-./mvnw spring-boot:run
