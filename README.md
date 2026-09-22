@@ -10,15 +10,19 @@ A small but complete REST API built with Java & Spring Boot for managing tasks (
 5. Centralized exception handling with clean, consistent error responses
 6. H2 in-memory database for zero-setup runs (easily switched to MySQL)
 7. Auto-generated database schema via Hibernate
-8. 
+   
 
 **🛠️ Tech Stack**
+
 <img width="610" height="327" alt="image" src="https://github.com/user-attachments/assets/91e907da-d02f-4450-af1a-0b9bec77c24a" />
 
 
 **🏗️ Architecture**
+
 Each layer has a single responsibility and only talks to the layer directly below it:
+
 <img width="581" height="160" alt="image" src="https://github.com/user-attachments/assets/6a1c4e82-4fdb-4eec-8efd-eb04c1b8f779" />
+
 1. Controller — handles HTTP only (URLs, verbs, status codes)
 2. Service — business logic + DTO ↔ entity conversion
 3. Repository — database access (Spring Data JPA)
@@ -28,6 +32,7 @@ Each layer has a single responsibility and only talks to the layer directly belo
 
 
 **📁 Project Structure**
+
 <img width="573" height="503" alt="image" src="https://github.com/user-attachments/assets/90d2451b-d7f0-4abd-9a62-7a8e21251c27" />
 
 
