@@ -2,6 +2,7 @@
 
 A small but complete REST API built with Java & Spring Boot for managing tasks (a to-do backend). It supports full CRUD — Create, Read, Update, Delete — over HTTP with JSON, and follows the standard layered architecture used in production Spring Boot apps.
 
+
 **✨ Features**
 1. Full CRUD REST API for tasks
 2. Layered architecture — Controller → Service → Repository → Entity
@@ -12,9 +13,11 @@ A small but complete REST API built with Java & Spring Boot for managing tasks (
 7. Auto-generated database schema via Hibernate
    
 
+
 **🛠️ Tech Stack**
 
 <img width="610" height="327" alt="image" src="https://github.com/user-attachments/assets/91e907da-d02f-4450-af1a-0b9bec77c24a" />
+
 
 
 **🏗️ Architecture**
@@ -31,10 +34,13 @@ Each layer has a single responsibility and only talks to the layer directly belo
 6. Exception handling — one place that turns errors into clean JSON
 
 
+
 **📁 Project Structure**
 
 <img width="573" height="503" alt="image" src="https://github.com/user-attachments/assets/90d2451b-d7f0-4abd-9a62-7a8e21251c27" />
 
 
+
 **📌 Author**
+
 Aarti Notani GitHub: https://github.com/aartinotani2002
